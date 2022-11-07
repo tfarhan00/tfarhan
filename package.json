@@ -1,0 +1,44 @@
+{
+  "name": "my-porto-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "proxy": "mkcert -install && mkcert localhost && local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "@nanostores/persistent": "^0.7.0",
+    "@nanostores/react": "^0.4.0",
+    "@storyblok/react": "^1.3.3",
+    "axios": "^0.27.2",
+    "bootstrap-icons": "^1.9.1",
+    "framer-motion": "^7.6.1",
+    "framer-motion-carousel": "^2.0.1",
+    "nanostores": "^0.7.0",
+    "next": "13.0.0",
+    "next-themes": "^0.2.1",
+    "querystring": "^0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-use-draggable-scroll": "^0.4.7",
+    "storyblok-rich-text-react-renderer": "^2.6.1",
+    "swr": "^1.3.0",
+    "twitter-api-v2": "^1.12.9"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.6",
+    "@types/react": "18.0.23",
+    "@types/react-dom": "18.0.7",
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
+    "typescript": "4.8.4"
+  }
+}
