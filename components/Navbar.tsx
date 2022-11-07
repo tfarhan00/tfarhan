@@ -11,7 +11,7 @@ export default function Navbar() {
 
 	return (
 		<div className='z-[99] w-full'>
-			<nav className="w-full h-20 rounded-none bg-cream text-darker bg-dark text-white flex items-center justify-between px-6 md:px-8 dark:bg-darker">
+			<nav className="w-full h-20 rounded-none bg-cream text-darker flex items-center justify-between px-6 md:px-8 dark:text-white dark:bg-darker">
 				<div className='font-bold font-DMserif dark:text-white'>
 					<Link href='/'>tfarhan.</Link>
 				</div>
