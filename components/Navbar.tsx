@@ -10,8 +10,8 @@ export default function Navbar() {
 	const notPath = "text-gray-400 dark:text-gray-500 flex items-center gap-2"
 
 	return (
-		<div className='fixed bottom-0 left-0 z-[99] p-4 w-full md:static md:p-0'>
-			<nav className="w-full h-16 md:h-20 rounded-xl md:rounded-none md:bg-cream md:text-darker bg-dark text-white flex items-center justify-between px-6 md:px-8 dark:bg-darker">
+		<div className='z-[99] w-full'>
+			<nav className="w-full h-20 rounded-none bg-cream text-darker flex items-center justify-between px-6 md:px-8 dark:text-white dark:bg-darker">
 				<div className='font-bold font-DMserif dark:text-white'>
 					<Link href='/'>tfarhan.</Link>
 				</div>
