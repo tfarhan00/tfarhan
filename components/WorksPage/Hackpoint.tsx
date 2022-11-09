@@ -19,8 +19,8 @@ export default function Hackpoint(): JSX.Element {
 	return (
 		
 		<div className='break-inside-avoid mb-4 w-full rounded-3xl h-[20rem] md:h-[22rem] p-4 bg-dark relative overflow-hidden flex flex-col items-center justify-start dark:bg-dark dark:ring-2 dark:ring-neutral-800'>
-			<div className="absolute -top-16 -left-8 w-32 h-60 rounded-full bg-white text-white text-3xl font-bold dark:text-white"></div>
-			<div className="absolute -bottom-20 -right-8 w-32 h-60 rounded-full bg-white text-white text-3xl font-bold dark:text-white"></div>
+			<div className="absolute -top-16 -left-8 w-32 h-60 rounded-full bg-white text-white text-3xl font-bold dark:text-white dark:hidden"></div>
+			<div className="absolute -bottom-20 -right-8 w-32 h-60 rounded-full bg-white text-white text-3xl font-bold dark:text-white dark:hidden"></div>
 			
 			<div className="absolute w-[22rem] lg:w-[17rem] -rotate-[10deg] -bottom-4 -right-24 mx-auto hover:scale-105 transition-all duration-500">
 					<Image src={HACKPOINT_URL} alt='hackpoint' width={800} height={800} className='rounded-lg' priority />
