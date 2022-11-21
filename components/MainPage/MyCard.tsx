@@ -9,9 +9,10 @@ export default function MyCard(): JSX.Element {
 	const [isSelected, setIsSelected] = useState<boolean>(false)
 
 	return (
-		<AnimatePresence mode='wait'> 
 		<LayoutGroup type="crossfade">
+		<AnimatePresence mode='wait'> 
 			{isSelected && (<MyDetails onClick={() => setIsSelected(!isSelected)} />)}		
+		</AnimatePresence>
 				<motion.div
 					layoutId='openDetails'
 					layout="position"
@@ -36,7 +37,6 @@ export default function MyCard(): JSX.Element {
 					</button>
 				</motion.div>
 			</LayoutGroup>
-		</AnimatePresence>
 	)
 }
 
