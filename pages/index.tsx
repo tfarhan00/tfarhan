@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <BaseLayout title="tfarhan - Web Developer"> 
     <AnimatePresence mode='wait'>     
-      <motion.div className="w-full flex items-center flex-col bg-cream md:p-4 dark:bg-darker p-6 pb-24 md:pb-8">
+      <motion.div className="w-full flex items-center flex-col bg-cream md:p-4 dark:bg-darker p-2 pb-24 md:pb-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }} 
           animate={{ opacity: 1, scale: 1 }} 
