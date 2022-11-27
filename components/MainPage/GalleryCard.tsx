@@ -30,7 +30,7 @@ export default function GalleryCard() {
 							alt='pict' 
 							quality={85}
 							fill
-							objectFit="contain"
+							style={{ objectFit: "cover" }}
 							priority 
 						/>
 					</div>
